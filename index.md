@@ -1,4 +1,4 @@
-<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/7dbad694-6c54-411c-99df-1bf2f82588ff" /># 滋賀大学 自主ゼミ　オリジナルChatGPTを作ろう！
+# 滋賀大学 自主ゼミ　オリジナルChatGPTを作ろう！
 
 ようこそ！このサイトでは、滋賀大学の先生方および、南條・飯山ゼミ：ChatGPT研究会が開発した、オリジナルChatGPTの紹介サイトです。
 ここでは、モデルの基本的な使い方から、研究開発の少し専門的な話まで、すべての情報を1ページで紹介しています。
