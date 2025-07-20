@@ -75,7 +75,7 @@
 
 <a href="https://chatgpt.com/g/g-67f8bd954ba08191b6f409aa39db2703-tong-ji-jian-ding-1ji-he-ge-ying-yuan-fen-ye-kotonichu-ti-shi-yan-yun-yong-ban-v1-3" target="_blank">
   <img src="image/62734ec0-6e9e-4a05-9077-77714e1bcf24.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
-  5. 統計検定1級合格応援 -- 分野ごとに出題（試験運用版）v1.3
+    5. 統計検定1級合格応援 -- 分野ごとに出題（試験運用版）v1.3
 </a>
 
 統計検定1級合格のための練習の問題を出そうとしています。  
@@ -86,7 +86,7 @@
 
 <a href="https://chatgpt.com/g/g-67f3c2a158288191afde0e8747e54b8b-semixuan-ze-atohaisa2025nian-du-ban" target="_blank">
   <img src="image/e40b07b0-4035-4bf7-904b-bbe1862523b2.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
-  6. ゼミ選択アドバイザー2025年度版
+    6. ゼミ選択アドバイザー2025年度版
 </a>
 
 滋賀大学データサイエンス研究科の大学院生が適切なゼミ、指導教員を選ぶための相談役です。  
@@ -97,7 +97,7 @@
 
 <a href="https://chatgpt.com/g/g-67f61df1a19081919270013fea894eb0-zi-he-da-xue-hasuan-nei" target="_blank">
   <img src="image/kara.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
-  7. 滋賀大学バス案内
+    7. 滋賀大学バス案内
 </a>
 
 Helps with queries about Shiga University  
@@ -108,7 +108,7 @@ Helps with queries about Shiga University
 
 <a href="https://chatgpt.com/g/g-6812956be77c81918393f693f0afa105-xue-xi-yong-tetasetutojian-suo" target="_blank">
   <img src="image/ChatGPT Image 2025年5月1日 07_34_25.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
-  8. 学習用データセット検索
+    8. 学習用データセット検索
 </a>
 
 Pythonのpydatasetに含まれる約750個のデータセットから目的に応じたものを提案します。  
@@ -119,7 +119,7 @@ Pythonのpydatasetに含まれる約750個のデータセットから目的に�
 
 <a href="https://chatgpt.com/g/g-6821575e3e608191b8fcc2262eab20aa-resihikamera" target="_blank">
   <img src="image/e4b0ec86-bf72-43b9-83b9-bf7eb0c64d50.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
-  9. レシピカメラ
+    9. レシピカメラ
 </a>
 
 冷蔵庫画像から食材と鮮度・量を読み取り、目的別レシピと保存アドバイスを提案します。  
@@ -130,7 +130,7 @@ Pythonのpydatasetに含まれる約750個のデータセットから目的に�
 
 <a href="https://chatgpt.com/g/g-684f70191a108191b5237dacf243ecc7-dsyan-jiu-ke-yan-jiu-shi-shao-jie-fei-gong-shi-zi-zhu-semitezuo-cheng" target="_blank">
   <img src="image/kara.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
-  10. DS研究科研究室紹介（非公式/自主ゼミで作成）
+    10. DS研究科研究室紹介（非公式/自主ゼミで作成）
 </a>
 
 滋賀大学大学院データサイエンス研究科の研究室を紹介をするGPTです。  
@@ -141,7 +141,7 @@ Pythonのpydatasetに含まれる約750個のデータセットから目的に�
 
 <a href="https://chatgpt.com/g/g-6829e98053e48191abc1a4fe1056b1b4-semishao-jie-jing-ji-temover0-47" target="_blank">
   <img src="image/kara.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
-  11. ゼミ紹介（経済）_デモver0.47
+    11. ゼミ紹介（経済）_デモver0.47
 </a>
 
 滋賀大学経済学部のゼミ紹介をするGPTです。  
@@ -152,7 +152,7 @@ Pythonのpydatasetに含まれる約750個のデータセットから目的に�
 
 <a href="https://chatgpt.com/g/g-67f511adaa208191b8a4a3d8739439f4-manahukun" target="_blank">
   <img src="image/d9975559-bfb7-4ce7-b9f2-6bce65537217.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
-  12. まなぶくん
+    12. まなぶくん
 </a>
 
 小学校３年生の児童に適した、教育的で楽しい会話を提供します。  
@@ -163,7 +163,7 @@ Pythonのpydatasetに含まれる約750個のデータセットから目的に�
 
 <a href="https://chatgpt.com/g/g-6844502d9e288191807cbf1060246d56-semishao-jie-ds-temover0-18" target="_blank">
   <img src="image/kara.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
-  13. ゼミ紹介（DS）_デモver0.18
+    13. ゼミ紹介（DS）_デモver0.18
 </a>
 
 滋賀大学データサイエンス学部のゼミ紹介をするGPTです。  
@@ -174,7 +174,7 @@ Pythonのpydatasetに含まれる約750個のデータセットから目的に�
 
 <a href="https://chatgpt.com/g/g-6829d3002f608191839c1217c700f309-semishao-jie-temover0-1" target="_blank">
   <img src="image/ChatGPT Image 2025年5月19日 16_16_08.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
-  14. ゼミ紹介_デモver0.1
+    14. ゼミ紹介_デモver0.1
 </a>
 
 滋賀大学経済学部のゼミ紹介をするGPTです。  
@@ -185,7 +185,7 @@ Pythonのpydatasetに含まれる約750個のデータセットから目的に�
 
 <a href="https://chatgpt.com/g/g-68216bc4c2f48191a9d1645342b9f9a2-zi-he-da-xue-bu-huo-sakuruan-nei-gpt-shi-yan-yun-yong-ban" target="_blank">
   <img src="image/kara.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
-  15. 滋賀大学 部活・サークル案内GPT（試験運用版）
+    15. 滋賀大学 部活・サークル案内GPT（試験運用版）
 </a>
 
 どのような部活・サークルをお探しですか？お手伝いします！  
@@ -196,7 +196,7 @@ Pythonのpydatasetに含まれる約750個のデータセットから目的に�
 
 <a href="https://chatgpt.com/g/g-680f495d51fc8191962c9fcdf0abd275-jiao-shi-nasixue-xi-si-kou-dan-dang-fen-teitinkuasisutanto" target="_blank">
   <img src="image/c74d4131-89f5-434f-8ece-627136d64291.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
-  16. 教師なし学習（寺口担当分）ティーチングアシスタント
+    16. 教師なし学習（寺口担当分）ティーチングアシスタント
 </a>
 
 滋賀大学データサイエンス研究科の教師なし学習（寺口担当分）のティーチングアシスタントです。  
@@ -207,7 +207,7 @@ Pythonのpydatasetに含まれる約750個のデータセットから目的に�
 
 <a href="https://chatgpt.com/g/g-67fbad6d2fec81918729184436d71532-guan-shu-tetajie-xi-zhi-wen-xiang" target="_blank">
   <img src="image/affa548f-a67e-454a-b021-976597bc0b9a.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
-  17. 関数データ解析質問箱
+   17. 関数データ解析質問箱
 </a>
 
 関数データ解析の専門家として講義資料とRコードに基づき質問に回答します。  
@@ -218,14 +218,118 @@ Pythonのpydatasetに含まれる約750個のデータセットから目的に�
 
 <a href="https://chatgpt.com/g/g-6833e17e9a9c8191a6b197a176db3c9a-chef" target="_blank">
   <img src="image/kara.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
-  18. chef
+    18. chef
 </a>
 
 Gpt gives us ideas of dishes.  
 *作成者: Moto Tanaka*
 
 
+## <a name="public"></a>滋賀大学のオリジナルGPTs (研究会製作)
 
+研究会が作成したGPTです。
+
+---
+
+---
+
+<a href="https://chatgpt.com/g/g-68216a735c3481919171f2b489d13d2f-sirabasu-gpt-getmeng-nabi-neo" target="_blank">
+  <img src="image/kara.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
+    1. シラバスgpt (Get夢ナビ neo)
+</a>
+
+滋賀大生の将来の夢を入力されるとそれに資する授業を提案します。  
+*作成者: K.Kawasaki*
+
+---
+
+<a href="https://chatgpt.com/g/g-684f70191a108191b5237dacf243ecc7-dsyan-jiu-ke-yan-jiu-shi-shao-jie-fei-gong-shi-zi-zhu-semitezuo-cheng" target="_blank">
+  <img src="image/kara.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
+    2. DS研究科研究室紹介（非公式/自主ゼミで作成）
+</a>
+
+滋賀大学大学院データサイエンス研究科の研究室を紹介をするGPTです  
+*作成者: 宮田尚弥*
+
+---
+
+<a href="https://chatgpt.com/g/g-68216a47a1c881918a368d9070397858-tenkiosietekurerukun" target="_blank">
+  <img src="image/kara.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
+    3. てんきおしえてくれるくん
+</a>
+
+天気を教えます  
+*作成者: NANJO Hiroaki*
+
+---
+
+<a href="https://chatgpt.com/g/g-6833e17e9a9c8191a6b197a176db3c9a-chef" target="_blank">
+  <img src="image/kara.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
+    4. chef
+</a>
+
+Gpt gives us ideas of dishes.  
+*作成者: Moto Tanaka*
+
+---
+
+<a href="https://chatgpt.com/g/g-68216a5db0a88191967307320de50dae-fridgetofork" target="_blank">
+  <img src="image/7ccad9b6-8818-4f43-9163-c8157dd8e3ce.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
+    5. Fridge to Fork
+</a>
+
+Suggests and explains recipes based on your fridge photos.  
+*作成者: Moto Tanaka*
+
+---
+
+<a href="https://chatgpt.com/g/g-6822e86bdb58819180bce9700a50d97c-zi-he-da-xue-you-da-matutingu-gpt" target="_blank">
+  <img src="image/048bd71e-2cdd-4d2b-816b-75b9d2242f67.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
+    6. 滋賀大学友達マッチングgpt
+</a>
+
+滋賀大学生向けマッチング支援GPT。対話入力で匿名登録＆スプレッドシート連携。  
+*作成者: Suzuki Reo*
+
+---
+
+<a href="https://chatgpt.com/g/g-6821575e3e608191b8fcc2262eab20aa-resihikamera" target="_blank">
+  <img src="image/kara.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
+    7. レシピカメラ
+</a>
+
+冷蔵庫画像から食材と鮮度・量を読み取り、目的別レシピと保存アドバイスを提案  
+*作成者: 岡田大輝*
+
+---
+
+<a href="https://chatgpt.com/g/g-68216af6136c8191849a62629b1d7d8f-shu-shi-jie-shi-tu-shi-asisutanto" target="_blank">
+  <img src="image/kara.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
+    8. 数式解釈＋図示アシスタント
+</a>
+
+講義資料のPDFをアップロードすると、その資料に出てくる数式を、まず講義の流れを押さえてから、記号の意味→パーツごとの構造→全体の意味→図解という順でわかりやすく解説します。文系出身や社会人学生のためのやさしいサポートに特化しています。  
+*作成者: 宮田尚弥*
+
+---
+
+<a href="https://chatgpt.com/g/g-68216b083e4c8191844373454c46e302-zi-he-da-xue-ibento-an-nei" target="_blank">
+  <img src="image/6444d61c-2990-4d97-a50f-7b006762f31a.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
+    9. 滋賀大学イベント案内
+</a>
+
+大学内で行われるイベントを紹介します。（就職関係、留学関係、セミナー関係、団体関係など）  
+*作成者: Oishi Yuta*
+
+---
+
+<a href="https://chatgpt.com/g/g-68216a6b031081918f5fcc84ad294b88-jia-ebsaito-qing-bao" target="_blank">
+  <img src="image/85a5083c-16d4-4299-9297-3e9e344f6c86.png" alt="GPT Icon" width="50" align="left" style="margin-right: 15px; border-radius: 50%;">
+    10. (仮)EBサイト情報
+</a>
+
+英語学習スクール『株式会社 English Buffet』の情報をHP(https://englishbuffet.net/)以下より参照、返信  
+*作成者: 岸田洋明*
 
 
 
