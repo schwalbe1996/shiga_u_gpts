@@ -1,0 +1,57 @@
+<style>
+.gpt-list-container {
+    margin-bottom: 20px;
+}
+
+.gpt-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.gpt-item img {
+    border-radius: 50%;
+    margin-right: 15px;
+    flex-shrink: 0; /* 画像が縮小されないようにする */
+}
+
+.gpt-item a {
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.gpt-item p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.gpt-item p:first-of-type {
+    margin-top: 5px; /* タイトルと説明の間にスペースを追加 */
+}
+
+.hidden-gpt {
+    display: none;
+}
+
+.toggle-gpt-list {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.toggle-gpt-list:hover {
+    background-color: #0056b3;
+}
+</style>
