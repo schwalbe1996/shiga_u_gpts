@@ -1,0 +1,19 @@
+Title,Description,Creator,Link
+滋賀大学 イベント紹介 ver.2,大学内で行われるイベントを紹介します。（セミナー、公開講座など）,Oishi Yuta,https://chatgpt.com/g/g-686b3e646cf88191824eb8b93f3ae241-zi-he-da-xue-ihentoshao-jie-ver-2
+滋賀大キッチンカー案内（2025年春）,滋賀大彦根キャンパスのキッチンカーについて教えてくれます。,NANJO, Hiroaki,https://chatgpt.com/g/g-67f4d29ef75c8191b6e126c7a6787442-zi-he-da-kitutinkaan-nei-2025nian-chun
+NMF質問箱,非負値行列因子分解（NMF）に関する質問に日本語で答える専門家です。,佐藤健一,https://chatgpt.com/g/g-67f47ee647d081918d6c4888d33f425a-nmfzhi-wen-xiang
+高大接続 (試験運用),高校生や保護者にデータサイエンス学部の説明をします。,佐藤健一,https://chatgpt.com/g/g-67f5ab1e526881918c31e16378117511-gao-da-jie-sok-shi-yan-yun-yong
+統計検定1級合格応援 -- 分野ごとに出題（試験運用版）v1.3,統計検定1級合格のための練習の問題を出そうとしています。,NANJO, Hiroaki,https://chatgpt.com/g/g-67f8bd954ba08191b6f409aa39db2703-tong-ji-jian-ding-1ji-he-ge-ying-yuan-fen-ye-kotonichu-ti-shi-yan-yun-yong-ban-v1-3
+ゼミ選択アドバイザー2025年度版,滋賀大学データサイエンス研究科の大学院生が適切なゼミ、指導教員を選ぶための相談役です。,寺口俊介,https://chatgpt.com/g/g-67f3c2a158288191afde0e8747e54b8b-semixuan-ze-atohaisa2025nian-du-ban
+滋賀大学バス案内,Helps with queries about Shiga University,Osamu Ichikawa,https://chatgpt.com/g/g-67f61df1a19081919270013fea894eb0-zi-he-da-xue-hasuan-nei
+学習用データセット検索,Pythonのpydatasetに含まれる約750個のデータセットから目的に応じたものを提案します。,佐藤健一,https://chatgpt.com/g/g-6812956be77c81918393f693f0afa105-xue-xi-yong-tetasetutojian-suo
+レシピカメラ,冷蔵庫画像から食材と鮮度・量を読み取り、目的別レシピと保存アドバイスを提案します。,岡田大輝,https://chatgpt.com/g/g-6821575e3e608191b8fcc2262eab20aa-resihikamera
+DS研究科研究室紹介（非公式/自主ゼミで作成）,滋賀大学大学院データサイエンス研究科の研究室を紹介をするGPTです。,宮田尚弥,https://chatgpt.com/g/g-684f70191a108191b5237dacf243ecc7-dsyan-jiu-ke-yan-jiu-shi-shao-jie-fei-gong-shi-zi-zhu-semitezuo-cheng
+ゼミ紹介（経済）_デモver0.47,滋賀大学経済学部のゼミ紹介をするGPTです。,三田村洸明,https://chatgpt.com/g/g-6829e98053e48191abc1a4fe1056b1b4-semishao-jie-jing-ji-temover0-47
+まなぶくん,小学校３年生の児童に適した、教育的で楽しい会話を提供します。,Hirofumi SAITO,https://chatgpt.com/g/g-67f511adaa208191b8a4a3d8739439f4-manahukun
+ゼミ紹介（DS）_デモver0.18,滋賀大学データサイエンス学部のゼミ紹介をするGPTです。,三田村洸明,https://chatgpt.com/g/g-6844502d9e288191807cbf1060246d56-semishao-jie-ds-temover0-18
+ゼミ紹介_デモver0.1,滋賀大学経済学部のゼミ紹介をするGPTです。,三田村洸明,https://chatgpt.com/g/g-6829d3002f608191839c1217c700f309-semishao-jie-temover0-1
+滋賀大学 部活・サークル案内GPT（試験運用版）,どのような部活・サークルをお探しですか？お手伝いします！,福山太陽,https://chatgpt.com/g/g-68216bc4c2f48191a9d1645342b9f9a2-zi-he-da-xue-bu-huo-sakuruan-nei-gpt-shi-yan-yun-yong-ban
+教師なし学習（寺口担当分）ティーチングアシスタント,滋賀大学データサイエンス研究科の教師なし学習（寺口担当分）のティーチングアシスタントです。,寺口俊介,https://chatgpt.com/g/g-680f495d51fc8191962c9fcdf0abd275-jiao-shi-nasixue-xi-si-kou-dan-dang-fen-teitinkuasisutanto
+関数データ解析質問箱,関数データ解析の専門家として講義資料とRコードに基づき質問に回答します。,Hidetoshi Matsui,https://chatgpt.com/g/g-67fbad6d2fec81918729184436d71532-guan-shu-tetajie-xi-zhi-wen-xiang
+chef,Gpt gives us ideas of dishes.,Moto Tanaka,https://chatgpt.com/g/g-6833e17e9a9c8191a6b197a176db3c9a-chef

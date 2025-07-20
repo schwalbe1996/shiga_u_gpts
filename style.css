@@ -1,0 +1,115 @@
+/* style.css の内容 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1, h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 1.8em;
+    margin-top: 40px;
+}
+p {
+    margin-bottom: 10px;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.gpt-list-container {
+    margin-bottom: 20px;
+}
+.gpt-item {
+    display: flex; /* Keep as flex to align image and content side-by-side */
+    align-items: flex-start; /* Align items to the top */
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.gpt-item img {
+    border-radius: 50%;
+    margin-right: 15px; /* Add margin to the right of the image */
+    flex-shrink: 0;
+}
+.gpt-item a {
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+    margin-bottom: 5px; /* Keep some bottom margin for the link */
+    display: block; /* Make the link a block element so description goes below */
+}
+.gpt-item p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #555;
+}
+.gpt-item p:first-of-type {
+    margin-top: 5px;
+}
+.hidden-gpt {
+    display: none;
+}
+.toggle-gpt-list {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.toggle-gpt-list:hover {
+    background-color: #0056b3;
+}
+/* Markdown hr replacement */
+.separator {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 40px 0;
+}
+
+/* New CSS to handle the order of elements within gpt-item */
+.gpt-item-content {
+    display: flex;
+    flex-direction: column; /* Stack link, description, and author vertically */
+}
+.gpt-item .gpt-description {
+    margin-top: 5px; /* Add some space between link and description */
+}
+.gpt-item .gpt-author {
+    font-size: 0.8em;
+    color: #777;
+    margin-top: 5px;
+}
