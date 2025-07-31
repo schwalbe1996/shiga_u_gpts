@@ -183,3 +183,23 @@
                     }
 
                     button.addEventListener('click', function () {
+                        if (this.textContent === 'もっと見る') {
+                            itemsToHide.forEach(item => {
+                                item.classList.remove('hidden-gpt');
+                            });
+                            this.textContent = '閉じる';
+                        } else {
+                            itemsToHide.forEach(item => {
+                                item.classList.add('hidden-gpt');
+                            });
+                            this.textContent = 'もっと見る';
+                            // (オプション) 折りたたんだときにコンテナの先頭にスクロールバックする
+                            container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    });
+                });
+            });
+        </script>
+</body>
+
+</html>

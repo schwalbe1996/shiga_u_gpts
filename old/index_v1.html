@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>滋賀大学 自主ゼミ オリジナルChatGPTを作ろう！</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 class="seminar-title">滋賀大学 自主ゼミ　オリジナルChatGPTを作ろう！</h1>
+
+        <p>ようこそ！このサイトでは、滋賀大学の先生方および、南條・飯山ゼミ：ChatGPT研究会が開発した、オリジナルChatGPTの紹介サイトです。ここでは、モデルの基本的な使い方から、研究開発の少し専門的な話まで紹介しています。</p>
+
+
+
+        <hr class="separator">
+
+
+
+        <h2 id="what-is-this">オリジナルChatGPTとは？</h2>
+
+        <p>ここで紹介するAIは、一般的なChatGPTとは一味違う、特別な「オリジナルChatGPT」です。</p>
+
+        <p>では、何がオリジナルなのでしょうか？ ポイントは大きく2つあります。</p>
+
+        <ol>
+
+            <li><strong>独自の「知識」を持っています</strong>
+
+                <p>このAIには、開発者である滋賀大学の先生方・研究会メンバーが、特別な知識情報を与えています。例えば、一般的なAIがまだ知らないような、滋賀大学の講義情報や、お昼ごはん情報など、公開されていない情報も詳しく答えることができます。</p>
+
+            </li>
+
+            <li><strong>独自の「対話ルール」が設定されています</strong>
+
+                <p>さらに、このAIにはあらかじめ「あなたは関西弁を話す、フレンドリーなアシスタントです」といったような、特別な指示（プロンプト）が組み込まれています。これにより、単に情報を提供するだけでなく、利用者にとってより親しみやすく、役に立つような応答が返ってくるように、その振る舞いが調整されています。</p>
+
+            </li>
+
+        </ol>
+
+        <p>この「独自の知識」と「独自の対話ルール」の組み合わせによって、他にはないオリジナリティのある、皆さん専用のChatGPTが実現されています。</p>
+
+
+
+        <hr class="separator">
+
+        <h2 id="internet-public">滋賀大学のオリジナルGPTs (インターネット公開)</h2>
+
+        <div class="gpt-list-container" id="internet-public-gpt-list">
+
+            <div class="gpt-item">
+
+                <img src="image/c80b9d04-adbf-4aea-9432-81d90cb18c4b.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-67ecddccd8408191b28732e239323cb9-sikamesinahi" target="_blank">
+
+                        1. しがメシナビ
+
+                    </a>
+
+                    <p class="gpt-description">[2025/07 ver2.0] 本当に滋賀大生協にあるメニューかを確認すると、修正しようとがんばります。下にある4種類から会話を始めるとうまくいくことが多いです。</p>
+
+                    <p class="gpt-author">作成者: NANJO, Hiroaki</p>
+
+                </div>
+
+            </div>
+
+        <hr class="separator">
+
+        <!--
+
+        <h2 id="public">滋賀大学のオリジナルGPTs (大学内公開用)</h2>
+
+        <div class="gpt-list-container" id="public-gpt-list">
+
+            <div class="gpt-item">
+
+                <img src="image/d6f362e7-32d2-45c7-bcc4-677b273328e9.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-686b3e646cf88191824eb8b93f3ae241-zi-he-da-xue-ihentoshao-jie-ver-2" target="_blank">
+
+                        1. 滋賀大学 イベント紹介 ver.2?
+
+                    </a>
+
+                    <p class="gpt-description">大学内で行われるイベントを紹介します。（セミナー、公開講座など）</p>
+
+                    <p class="gpt-author">作成者: Oishi Yuta</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item">
+
+                <img src="image/326b1648-666e-4d52-8315-944bea1f0009.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-67f4d29ef75c8191b6e126c7a6787442-zi-he-da-kitutinkaan-nei-2025nian-chun" target="_blank">
+
+                        2. 滋賀大キッチンカー案内（2025年春）
+
+                    </a>
+
+                    <p class="gpt-description">滋賀大彦根キャンパスのキッチンカーについて教えてくれます。</p>
+
+                    <p class="gpt-author">作成者: NANJO, Hiroaki</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item">
+
+                <img src="image/media.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-67f47ee647d081918d6c4888d33f425a-nmfzhi-wen-xiang" target="_blank">
+
+                        3. NMF質問箱
+
+                    </a>
+
+                    <p class="gpt-description">非負値行列因子分解（NMF）に関する質問に日本語で答える専門家です。</p>
+
+                    <p class="gpt-author">作成者: 佐藤健一</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item">
+
+                <img src="image/スクリーンショット 2025-04-09 084851.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-67f5ab1e526881918c31e16378117511-gao-da-jie-sok-shi-yan-yun-yong" target="_blank">
+
+                        4. 高大接続 (試験運用)
+
+                    </a>
+
+                    <p class="gpt-description">高校生や保護者にデータサイエンス学部の説明をします。</p>
+
+                    <p class="gpt-author">作成者: 佐藤健一</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item">
+
+                <img src="image/62734ec0-6e9e-4a05-9077-77714e1bcf24.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-67f8bd954ba08191b6f409aa39db2703-tong-ji-jian-ding-1ji-he-ge-ying-yuan-fen-ye-kotonichu-ti-shi-yan-yun-yong-ban-v1-3" target="_blank">
+
+                        5. 統計検定1級合格応援 -- 分野ごとに出題（試験運用版）v1.3
+
+                    </a>
+
+                    <p class="gpt-description">統計検定1級合格のための練習の問題を出そうとしています。</p>
+
+                    <p class="gpt-author">作成者: NANJO, Hiroaki</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item hidden-gpt">
+
+                <img src="image/e40b07b0-4035-4bf7-904b-bbe1862523b2.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-67f3c2a158288191afde0e8747e54b8b-semixuan-ze-atohaisa2025nian-du-ban" target="_blank">
+
+                        6. ゼミ選択アドバイザー2025年度版
+
+                    </a>
+
+                    <p class="gpt-description">滋賀大学データサイエンス研究科の大学院生が適切なゼミ、指導教員を選ぶための相談役です。</p>
+
+                    <p class="gpt-author">作成者: 寺口俊介</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item hidden-gpt">
+
+                <img src="image/kara.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-67f61df1a19081919270013fea894eb0-zi-he-da-xue-hasuan-nei" target="_blank">
+
+                        7. 滋賀大学バス案内
+
+                    </a>
+
+                    <p class="gpt-description">Helps with queries about Shiga University</p>
+
+                    <p class="gpt-author">作成者: Osamu Ichikawa</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item hidden-gpt">
+
+                <img src="image/ChatGPT Image 2025年5月1日 07_34_25.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-6812956be77c81918393f693f0afa105-xue-xi-yong-tetasetutojian-suo" target="_blank">
+
+                        8. 学習用データセット検索
+
+                    </a>
+
+                    <p class="gpt-description">Pythonのpydatasetに含まれる約750個のデータセットから目的に応じたものを提案します。</p>
+
+                    <p class="gpt-author">作成者: 佐藤健一</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item hidden-gpt">
+
+                <img src="image/e4b0ec86-bf72-43b9-83b9-bf7eb0c64d50.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-6821575e3e608191b8fcc2262eab20aa-resihikamera" target="_blank">
+
+                        9. レシピカメラ
+
+                    </a>
+
+                    <p class="gpt-description">冷蔵庫画像から食材と鮮度・量を読み取り、目的別レシピと保存アドバイスを提案します。</p>
+
+                    <p class="gpt-author">作成者: 岡田大輝</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item hidden-gpt">
+
+                <img src="image/kara.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-684f70191a108191b5237dacf243ecc7-dsyan-jiu-ke-yan-jiu-shi-shao-jie-fei-gong-shi-zi-zhu-semitezuo-cheng" target="_blank">
+
+                        10. DS研究科研究室紹介（非公式/自主ゼミで作成）
+
+                    </a>
+
+                    <p class="gpt-description">滋賀大学大学院データサイエンス研究科の研究室を紹介をするGPTです。</p>
+
+                    <p class="gpt-author">作成者: 宮田尚弥</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item hidden-gpt">
+
+                <img src="image/kara.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-6829e98053e48191abc1a4fe1056b1b4-semishao-jie-jing-ji-temover0-47" target="_blank">
+
+                        11. ゼミ紹介（経済）_デモver0.47
+
+                    </a>
+
+                    <p class="gpt-description">滋賀大学経済学部のゼミ紹介をするGPTです。</p>
+
+                    <p class="gpt-author">作成者: 三田村洸明</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item hidden-gpt">
+
+                <img src="image/d9975559-bfb7-4ce7-b9f2-6bce65537217.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-67f511adaa208191b8a4a3d8739439f4-manahukun" target="_blank">
+
+                        12. まなぶくん
+
+                    </a>
+
+                    <p class="gpt-description">小学校３年生の児童に適した、教育的で楽しい会話を提供します。</p>
+
+                    <p class="gpt-author">作成者: Hirofumi SAITO</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item hidden-gpt">
+
+                <img src="image/kara.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-6844502d9e288191807cbf1060246d56-semishao-jie-ds-temover0-18" target="_blank">
+
+                        13. ゼミ紹介（DS）_デモver0.18
+
+                    </a>
+
+                    <p class="gpt-description">滋賀大学データサイエンス学部のゼミ紹介をするGPTです。</p>
+
+                    <p class="gpt-author">作成者: 三田村洸明</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item hidden-gpt">
+
+                <img src="image/ChatGPT Image 2025年5月19日 16_16_08.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-6829d3002f608191839c1217c700f309-semishao-jie-temover0-1" target="_blank">
+
+                        14. ゼミ紹介_デモver0.1
+
+                    </a>
+
+                    <p class="gpt-description">滋賀大学経済学部のゼミ紹介をするGPTです。</p>
+
+                    <p class="gpt-author">作成者: 三田村洸明</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item hidden-gpt">
+
+                <img src="image/kara.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-68216bc4c2f48191a9d1645342b9f9a2-zi-he-da-xue-bu-huo-sakuruan-nei-gpt-shi-yan-yun-yong-ban" target="_blank">
+
+                        15. 滋賀大学 部活・サークル案内GPT（試験運用版）
+
+                    </a>
+
+                    <p class="gpt-description">どのような部活・サークルをお探しですか？お手伝いします！</p>
+
+                    <p class="gpt-author">作成者: 福山太陽</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item hidden-gpt">
+
+                <img src="image/c74d4131-89f5-434f-8ece-627136d64291.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-680f495d51fc8191962c9fcdf0abd275-jiao-shi-nasixue-xi-si-kou-dan-dang-fen-teitinkuasisutanto" target="_blank">
+
+                        16. 教師なし学習（寺口担当分）ティーチングアシスタント
+
+                    </a>
+
+                    <p class="gpt-description">滋賀大学データサイエンス研究科の教師なし学習（寺口担当分）のティーチングアシスタントです。</p>
+
+                    <p class="gpt-author">作成者: 寺口俊介</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item hidden-gpt">
+
+                <img src="image/affa548f-a67e-454a-b021-976597bc0b9a.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-67fbad6d2fec81918729184436d71532-guan-shu-tetajie-xi-zhi-wen-xiang" target="_blank">
+
+                        17. 関数データ解析質問箱
+
+                    </a>
+
+                    <p class="gpt-description">関数データ解析の専門家として講義資料とRコードに基づき質問に回答します。</p>
+
+                    <p class="gpt-author">作成者: Hidetoshi Matsui</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item hidden-gpt">
+
+                <img src="image/kara.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-6833e17e9a9c8191a6b197a176db3c9a-chef" target="_blank">
+
+                        18. chef
+
+                    </a>
+
+                    <p class="gpt-description">Gpt gives us ideas of dishes.</p>
+
+                    <p class="gpt-author">作成者: Moto Tanaka</p>
+
+                </div>
+
+            </div>
+
+            <button class="toggle-gpt-list" data-target="public-gpt-list">もっと見る</button>
+
+        </div>
+
+        <hr class="separator">
+
+    -->  
+
+
+
+       
+
+
+
+        <h2 id="research-group">滋賀大学のオリジナルGPTs (研究会製作)</h2>
+
+        <div class="gpt-list-container" id="research-gpt-list">
+
+            <div class="gpt-item">
+
+                <img src="image/kara.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-68216a735c3481919171f2b489d13d2f-sirabasu-gpt-getmeng-nabi-neo" target="_blank">
+
+                        1. シラバスgpt (Get夢ナビ neo)
+
+                    </a>
+
+                    <p class="gpt-description">滋賀大生の将来の夢を入力されるとそれに資する授業を提案します。</p>
+
+                    <p class="gpt-author">作成者: K.Kawasaki</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item">
+
+                <img src="image/kara.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-684f70191a108191b5237dacf243ecc7-dsyan-jiu-ke-yan-jiu-shi-shao-jie-fei-gong-shi-zi-zhu-semitezuo-cheng" target="_blank">
+
+                        2. DS研究科研究室紹介（非公式/自主ゼミで作成）
+
+                    </a>
+
+                    <p class="gpt-description">滋賀大学大学院データサイエンス研究科の研究室を紹介をするGPTです</p>
+
+                    <p class="gpt-author">作成者: 宮田尚弥</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item">
+
+                <img src="image/kara.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-68216a47a1c881918a368d9070397858-tenkiosietekurerukun" target="_blank">
+
+                        3. てんきおしえてくれるくん
+
+                    </a>
+
+                    <p class="gpt-description">天気を教えます</p>
+
+                    <p class="gpt-author">作成者: NANJO Hiroaki</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item">
+
+                <img src="image/kara.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-6833e17e9a9c8191a6b197a176db3c9a-chef" target="_blank">
+
+                        4. chef
+
+                    </a>
+
+                    <p class="gpt-description">Gpt gives us ideas of dishes.</p>
+
+                    <p class="gpt-author">作成者: Moto Tanaka</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item">
+
+                <img src="image/7ccad9b6-8818-4f43-9163-c8157dd8e3ce.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-68216a5db0a88191967307320de50dae-fridgetofork" target="_blank">
+
+                        5. Fridge to Fork
+
+                    </a>
+
+                    <p class="gpt-description">Suggests and explains recipes based on your fridge photos.</p>
+
+                    <p class="gpt-author">作成者: Moto Tanaka</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item hidden-gpt">
+
+                <img src="image/048bd71e-2cdd-4d2b-816b-75b9d2242f67.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-6822e86bdb58819180bce9700a50d97c-zi-he-da-xue-you-da-matutingu-gpt" target="_blank">
+
+                        6. 滋賀大学友達マッチングgpt
+
+                    </a>
+
+                    <p class="gpt-description">滋賀大学生向けマッチング支援GPT。対話入力で匿名登録＆スプレッドシート連携。</p>
+
+                    <p class="gpt-author">作成者: Suzuki Reo</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item hidden-gpt">
+
+                <img src="image/kara.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-6821575e3e608191b8fcc2262eab20aa-resihikamera" target="_blank">
+
+                        7. レシピカメラ
+
+                    </a>
+
+                    <p class="gpt-description">冷蔵庫画像から食材と鮮度・量を読み取り、目的別レシピと保存アドバイスを提案</p>
+
+                    <p class="gpt-author">作成者: 岡田大輝</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item hidden-gpt">
+
+                <img src="image/kara.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-68216af6136c8191849a62629b1d7d8f-shu-shi-jie-shi-tu-shi-asisutanto" target="_blank">
+
+                        8. 数式解釈＋図示アシスタント
+
+                    </a>
+
+                    <p class="gpt-description">講義資料のPDFをアップロードすると、その資料に出てくる数式を、まず講義の流れを押さえてから、記号の意味→パーツごとの構造→全体の意味→図解という順でわかりやすく解説します。文系出身や社会人学生のためのやさしいサポートに特化しています。</p>
+
+                    <p class="gpt-author">作成者: 宮田尚弥</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item hidden-gpt">
+
+                <img src="image/6444d61c-2990-4d97-a50f-7b006762f31a.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-68216b083e4c8191844373454c46e302-zi-he-da-xue-ibento-an-nei" target="_blank">
+
+                        9. 滋賀大学イベント案内
+
+                    </a>
+
+                    <p class="gpt-description">大学内で行われるイベントを紹介します。（就職関係、留学関係、セミナー関係、団体関係など）</p>
+
+                    <p class="gpt-author">作成者: Oishi Yuta</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item hidden-gpt">
+
+                <img src="image/85a5083c-16d4-4299-9297-3e9e344f6c86.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-68216a6b031081918f5fcc84ad294b88-jia-ebsaito-qing-bao" target="_blank">
+
+                        10. (仮)EBサイト情報
+
+                    </a>
+
+                    <p class="gpt-description">英語学習スクール『株式会社 English Buffet』の情報をHP(https://englishbuffet.net/)以下より参照、返信</p>
+
+                    <p class="gpt-author">作成者: 岸田洋明</p>
+
+                </div>
+
+            </div>
+
+            <div class="gpt-item hidden-gpt">
+
+                <img src="image/ChatGPT Image 2025年5月13日 10_27_11.png" alt="GPT Icon" width="50">
+
+                <div class="gpt-item-content">
+
+                    <a href="https://chatgpt.com/g/g-68229cf1f46881919ffc4809812d86c5-zi-he-da-xue-kiyariaxiang-tan-shi-li-gen-chuan-shi" target="_blank">
+
+                        11. 滋賀大学キャリア相談室・利根川式
+
+                    </a>
+
+                    <p class="gpt-description">滋賀大学のキャリア相談員。利根川式の叱咤激励で、迷える者に進むべき道を示す。</p>
+
+                    <p class="gpt-author">作成者: 瀬川　正之</p>
+
+                </div>
+
+            </div>
+
+            <button class="toggle-gpt-list" data-target="research-gpt-list">もっと見る</button>
+
+
+
+        </div>
+
+    </div>
+
+
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function() {
+
+            const toggleButtons = document.querySelectorAll('.toggle-gpt-list');
+
+
+
+            toggleButtons.forEach(button => {
+
+                const containerId = button.dataset.target;
+
+                const container = document.getElementById(containerId);
+
+                const gptItems = container.querySelectorAll('.gpt-item');
+
+                const itemsToHide = Array.from(gptItems).slice(5); // 6番目以降のアイテムを取得
+
+
+
+                // 最初は最初の5つ以降のアイテムを非表示にする
+
+                itemsToHide.forEach(item => {
+
+                    item.classList.add('hidden-gpt');
+
+                });
+
+
+
+                // アイテムが5つ以下の場合、ボタンを非表示にする
+
+                if (gptItems.length <= 5) {
+
+                    button.style.display = 'none';
+
+                }
+
+
+
+                button.addEventListener('click', function() {
+
+                    if (this.textContent === 'もっと見る') {
+
+                        itemsToHide.forEach(item => {
+
+                            item.classList.remove('hidden-gpt');
+
+                        });
+
+                        this.textContent = '閉じる';
+
+                    } else {
+
+                        itemsToHide.forEach(item => {
+
+                            item.classList.add('hidden-gpt');
+
+                        });
+
+                        this.textContent = 'もっと見る';
+
+                        // (オプション) 折りたたんだときにコンテナの先頭にスクロールバックする
+
+                        container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+                    }
+
+                });
+
+            });
+
+        });
+
+    </script>
+
+</body>
+
+</html>
